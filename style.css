@@ -1,0 +1,269 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    color: #444;
+}
+
+h1 {
+    font-family: "Crete Round", sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.point-du-titre {
+    color: #FF7A00;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+    color: #777;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    background: url("images/main.jpg") center;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+#title-voyage-sur-mesure {
+    font-weight: bold;
+}
+
+.button-par-ici {
+    display: block;
+    width: 120px;
+    height: 50px;
+    color: #FFF;
+    background-color: #FF7A00;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-par-ici:hover {
+    background-color: #02B8DD;
+}
+
+/* STEPS */
+
+#steps ul li h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps ul {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#steps ul li {
+    width: 300px;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+ }
+
+#steps ul li p {
+    line-height: 20px;
+    color: #777;
+ }
+
+#step-1 {
+    background: url("images/steps-icon-1.png") no-repeat top center;
+ }
+
+#step-2 {
+    background: url("images/steps-icon-2.png") no-repeat top center;
+ }
+
+#step-3 {
+    background: url("images/steps-icon-3.png") no-repeat top center;
+}
+
+/* POSSIBILITIES */
+
+#possibilities {
+    background-color: #EFEFEF;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#possibilities article {
+    width: 460px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+#possibilities article:first-child {
+    margin-right: 20px;
+}
+
+#possibilities p {
+    margin-bottom: 20px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4 {
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.button-plus-dinfos {
+    color: #FFF;
+    background-color: #FF7A00;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+
+.button-plus-dinfos:hover {
+    background-color: #02B8DD;
+}
+
+/* CONTACT */
+
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #02B8DD;
+}
+
+#contact p {
+    color: #777;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color:#777;
+}
+
+input[type="text"]  {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #DDD;
+    border-radius: 3px;
+}
+
+.button-ok {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #02B8DD;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.button-ok:hover {
+    background-color: #444;
+}
+
+/* FOOTER */
+
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: #FFF;
+    text-align: center;
+    padding-top: 80px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+ }
